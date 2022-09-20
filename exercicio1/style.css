@@ -1,16 +1,24 @@
 #texto-fonte-root{
+    font-size: 3rem ;
+    background-color: rgb(202, 31, 88);
 
 }
 
 #texto-paddings-verticais{
+    padding: 2rem 0 ;
+    background-color: palevioletred;
 
 }
 
 #altura-porcentagem-comprimento{
+    background-color: brown;
+    width: 20vh;
 
 }
 
 #comprimento-metade-altura{
+    background-color: blueviolet;
+    width: 50vh;
 
 }
 
@@ -21,13 +29,20 @@
 }
 
 #fonte-setenta{
+    /* com relação ao pai */
+    font-size: 70%;
+    background-color: blue;
 
 }
 
 #comprimento-pai{
+    width: 10%;
+    background-color: brown;
 
 }
 
 #altura-pai{
+    height: 10%;
+    background-color: aquamarine;
 
 }

@@ -13,13 +13,17 @@
   }
   
   main {
-    height: 77vh;
-    max-width: 800px;
-    display: flex;
-    flex-direction: row;
-    margin: 20px auto;
-    gap: 10px;
-  }
+    
+      min-height: 77vh;
+      max-width: 800px;
+      display: flex;
+      flex-direction: row;
+      margin: 20px auto;
+      gap: 10px;
+    }
+    
+     
+  
   
   main aside,
   main section {
@@ -38,11 +42,24 @@
     background-color: mistyrose;
   }
   
-  footer {
-    position: absolute;
-    bottom: 0;
+   footer {
+    
     background-color: black;
     color: white;
     padding: 20px;
     width: 100%;
-  }
+    
+    
+   }
+    
+  
+
+   @media screen and (max-width:480px) {
+    main {
+        width: 100%;
+        border: 1px solid black;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+}   
